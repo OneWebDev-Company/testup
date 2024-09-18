@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(241, 69, 213);
+    transition: 0.5s;
+}
+.sidebar1{
+    width: 50px;
+    height: 100vh;
+    background-color: rgb(241, 69, 213); 
+    transition: 0.5s;
+}
+.main{
+    text-align: end;
+    cursor: pointer;
+}
+.main .icon{
+    font-size: 30px;
+    color: #fff;
+}
+ul li{
+    display: flex;
+    align-items: center;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.list .icon{
+    font-size: 30px;
+    color: #fff;
+}
+.list a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}

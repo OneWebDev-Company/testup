@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.yhia-container{
+    width: 350px;
+    min-height: 150px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.yhia-title{
+    text-align: center;
+    
+}
+.yhia-container ul li {
+    list-style: none;
+ 
+}
+.yhia-container ul {
+margin: 10px 0; 
+
+
+}
+.yhia-container ul .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.yhia-container ul .list span{
+font-weight: 900;
+color: red;
+cursor: pointer;
+}
+.done{
+    text-decoration:  line-through;
+}
